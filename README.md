@@ -13,5 +13,15 @@ var markdown = `
 `
 
 var opts = { gfm: false }
-document.body.appendChild(belmark(markdown, opts))
+var el   = belmark(markdown, opts)
+
+document.body.appendChild(el)
 ```
+
+# api
+
+`var element = belmark(markdown, opts)`
+
+* `source` - Markdown source String
+* `opts` - Marked options
+  * check [marked](https://www.npmjs.com/package/marked) for available options
