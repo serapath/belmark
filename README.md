@@ -32,3 +32,8 @@ for more details see: [demo](https://serapath.github.io/belmark)
 * `source` - Markdown source String
 * `opts` - Marked options
   * check [marked](https://www.npmjs.com/package/marked) for available options
+
+# related
+inspiration came from
+* https://www.npmjs.com/package/beldown
+* https://www.npmjs.com/package/element-markdown
