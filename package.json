@@ -1,10 +1,13 @@
 {
   "name": "belmark",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "creates dom nodes from markdown",
   "main": "source/belmark.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npm run www & npm run watch",
+    "www": "ecstatic . -p 3434",
+    "open": "opn http://0.0.0.0:3434",
+    "watch": "mkdir -p public/browser & watchify test/test.js -p [ browserify-livereload --host 127.0.0.1 --port 1342 ] -v -o public/browser/bundle.js"
   },
   "repository": {
     "type": "git",
@@ -24,5 +27,11 @@
   "dependencies": {
     "bel": "^4.5.1",
     "marked": "^0.3.6"
+  },
+  "devDependencies": {
+    "browserify-livereload": "^1.0.9",
+    "ecstatic": "^2.1.0",
+    "opn-cli": "^3.1.0",
+    "watchify": "^3.8.0"
   }
 }

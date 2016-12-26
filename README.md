@@ -16,7 +16,14 @@ var opts = { gfm: false }
 var el   = belmark(markdown, opts)
 
 document.body.appendChild(el)
+// or
+document.body.appendChild(bel`
+  # Hello
+  * world
+`)
 ```
+
+for more details see: [demo](https://serapath.github.io/belmark)
 
 # api
 
