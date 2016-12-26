@@ -1,0 +1,28 @@
+{
+  "name": "belmark",
+  "version": "1.0.0",
+  "description": "creates dom nodes from markdown",
+  "main": "source/belmark.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/serapath/belmark.git"
+  },
+  "keywords": [
+    "markdown",
+    "bel",
+    "marked"
+  ],
+  "author": "@serapath",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/serapath/belmark/issues"
+  },
+  "homepage": "https://github.com/serapath/belmark#readme",
+  "dependencies": {
+    "bel": "^4.5.1",
+    "marked": "^0.3.6"
+  }
+}
