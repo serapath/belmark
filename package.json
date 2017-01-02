@@ -1,6 +1,6 @@
 {
   "name": "belmark",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "creates dom nodes from markdown",
   "main": "source/belmark.js",
   "scripts": {

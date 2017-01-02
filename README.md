@@ -21,12 +21,12 @@ document.body.appendChild(el)
 /****************************
   as tagged template
 ****************************/
-var el2 = bel.bind(opts)`
+var el2 = belmark.bind(opts)`
   # Hello
   * world
 `
 // or with default `opts`
-var el2 = bel`
+var el2 = belmark`
   # Hello
   * world
 `
